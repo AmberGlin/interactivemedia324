@@ -1,0 +1,597 @@
+#container {
+ 	background-image: linear-gradient(#683f69, #d16b93, #8E1B47, #000924);
+ 	max-width: 15000px;
+ 	min-height: 13000px;
+ 	z-index: 0;
+ 	padding: 0;
+ 	margin: 0;
+ }
+ /*colors*/
+ /*gold #FFC30F;*/
+ /*orange #FF5B37;*/
+ /*pink #C70039;*/
+ /*fushcia #900C3F;*/
+ /*purple #581845;*/
+
+
+/*fonts*/
+.font {
+	color: white;
+	font-family: 'avantgargotitcteeregular';
+}
+
+.font2 {
+	font-family: 'avantgargotitcteeitalic';
+}
+
+.font3 {
+	font-family: 'avantgarde_md_btmedium';
+}
+ 
+ .font4 {
+ 	font-family: 'avantgarde_md_btMdOb';
+ }
+
+ .title {
+
+ 	color: white;
+ 	position: absolute;
+ 	right: 5vw;
+ 	font-size: 3vw;
+ }
+
+/* .title:hover {
+ 	color: gray;
+ }*/
+
+/*gender lines*/
+ .whatis {
+ 	color: #FF5B37;
+ 	display: inline-block;
+ }
+.ge {
+	color: #02185d;
+	display: inline;
+}
+
+.nd {
+	color: #581845;
+	display: inline;
+}
+
+.er {
+	color: #f67e7d;
+	display: inline;
+}
+
+.q {
+	color: #FF5B37;
+	display: inline;
+
+}
+ .gender {
+ 	display: none;
+	color: white;
+	position: absolute;
+	left: 29vw;
+top: 55vh;
+	font-size: 6vw;
+}
+
+/*.gender:hover {
+	color: red;
+}*/
+
+.genderline2 {
+	display: none;
+	color: #FFC30F;
+	position: absolute;
+	text-align: center;
+	left: 7vw;
+top: 80vh;
+	font-size: 3vw;
+}
+
+.bio {
+	display: inline;
+	/*color: gray;*/
+}
+
+.sexes {
+	display: none;
+	color: #FFC30F;
+	position: absolute;
+	text-align: center;
+	font-size: 3vw;
+	left: 28vw;
+top: 99vh;
+}
+
+.perception {
+	display: none;
+	color: #FFC30F;
+	position: absolute;
+	text-align: center;
+	font-size: 3vw;
+	left: 49vw;
+top: 120vh;
+}
+
+.whose {
+	display: none;
+	position: absolute;
+	text-align: center;
+	font-size: 11vw;
+left: 0vw;
+	top: 140vh;
+	margin-left: 2vw;
+	color: #F14F2B;
+}
+
+.isit {
+	display: none;
+	position: absolute;
+	text-align: center;
+	font-size: 9vw;
+left: 7.5vw;
+top: 160vh;
+color: #FF5B37;
+}
+
+.yourself {
+	display: none;
+	position: absolute;
+	text-align: center;
+	font-size: 4vw;
+	left: 20vw;
+top: 218vh;
+
+}
+
+.yourself2 {
+	font-size: 4vw;
+	line-height: 13vh;
+}
+
+.typi {
+	display: inline;
+}
+
+.typi:hover {
+	color: #f67e7d;
+}
+
+.lineheight {
+	line-height: 8vw;
+}
+
+#wrap10 {
+	display: inline;
+}
+
+.fsize {
+	font-size: 4vw;
+}
+
+.tm {
+	display: none;
+	position: absolute;
+	left: -15vw;
+top: 23vh;
+}
+
+.man {
+	display: inline;
+	color: #4D85BA
+}
+
+.mancolor {
+ color: #0040FF;
+}
+
+#wrap11{
+	display: inline;
+}
+
+.tw {
+	display: none;
+	position: absolute;
+	top: 30vh;
+right: -20.5vw;
+
+}
+
+.woman {
+	display: inline;
+	color: #ffb8b7e6;
+}
+
+.womancolor {
+	color: #d700ff;
+}
+
+#wrap12 {
+	display: inline;
+}
+
+.wdtm {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 5.5vw;
+	top: 291vh;
+	font-size: 6vw;
+
+}
+
+.typical1 {
+	display: inline;
+	font-size: 12vw;
+}
+
+.can {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 3vw;
+top: 355vh;
+	font-size: 3vw;
+
+}
+
+.men {
+	display: inline;
+	color: #4D85BA 
+}
+
+.clothing {
+	display: inline-block;
+	color: #ffb8b7e6;
+}
+
+
+/*typicals*/
+.goldtypical1 {
+	display: none;
+	position: absolute;
+left: 53vw;
+top: 341vh;
+font-size: 12vw;
+color: #FFC30F;
+}
+
+.goldtypical2 {
+	display: none;
+	position: absolute;
+left: 3vw;
+top: 384vh;
+font-size: 12vw;
+color: #FFC30F;
+}
+
+.goldtypical3 {
+	display: none;
+	position: absolute;
+left: 51vw;
+top: 424vh;
+font-size: 12vw;
+color: #FFC30F;
+}
+
+.goldtypical4 {
+	display: none;
+	position: absolute;
+left: 2.5vw;
+top: 468vh;
+font-size: 12vw;
+color: #FFC30F;
+}
+
+.do {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 51vw;
+top: 398vh;
+	font-size: 3vw;
+
+}
+
+.makeup {
+	display: inline;
+	color: #E12D60;
+}
+
+.can2 {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 7vw;
+top: 437vh;
+	font-size: 3vw;
+}
+
+.men2 {
+	display: inline;
+	color: #4D85BA; 
+
+}
+
+.makeup2 {
+	display: inline;
+	color: #ffb8b7e6;
+
+}
+
+.do2 {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 51vw;
+top: 482vh;
+	font-size: 3vw;
+}
+
+.feminine {
+	display: inline;
+	color: #E12D60;
+}
+
+.whatbehave1 {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 13.5vw;
+top: 512vh;
+	font-size: 3vw;
+}
+
+.behaviors {
+	display: inline;
+	color: #CA0900;
+	font-size: 4vw;
+}
+
+.behavemen {
+	display: inline;
+	color: #4D85BA;
+}
+
+.inappro {
+	display: inline;
+	font-size: 4vw;
+}
+
+.behavewomen {
+	display: inline;
+	color: #E12D60;
+}
+
+.whatbehave2 {
+	display: none;
+	color: white;
+	position: absolute;
+	text-align: center;
+	left: 12vw;
+top: 548vh;
+	font-size: 3vw;
+}
+
+.appro {
+	display: inline;
+	font-size: 4vw;
+	color: #FF5B37;
+}
+
+.notanother {
+	display: inline;
+	font-size: 4vw;
+	color: #FFC30F;
+}
+
+/*race section*/
+
+.racetitle {
+	display: none;
+	position: absolute;
+	left: 5vw;
+	top: 597vh;
+	color: #700404;
+	font-size: 5vw;	
+}
+
+.difference {
+	display: none;
+	position: absolute;
+	
+	color: #F4451E;
+	font-size: 4vw;
+}
+
+.position1 {
+	left: 23vw;
+top: 623vh;
+}
+
+.position2 {
+	left: 32vw;
+top: 771vh;
+}
+
+.identity {
+	display: none;
+	position: absolute;
+	text-align: center;
+	left: 29vw;
+	top: 640vh;
+	font-size: 6vw;
+	color: white;
+}
+
+.peopleask {
+	display: none;
+	position: absolute;
+	font-size: 5vw;
+	font-size: 7vw;
+	left: 14vw;
+top: 657vh;
+	color: #FFC30F;
+	line-height: 26vh;
+}
+
+.interactions {
+	display: none;
+	position: absolute;
+	left: 16vw;
+top: 679vh;
+	color: #a84d8d;
+	font-size: 5vw;
+}
+
+.treat {
+	display: none;
+	position: absolute;
+	left: 51vw;
+top: 678vh;
+color: #a84d8d;
+font-size: 5vw;
+line-height: 16vh;
+}
+
+.treat2 {
+	display: none;
+	position: absolute;
+	left: 39vw;
+top: 796vh;
+color: #a84d8d;
+font-size: 3vw;
+line-height: 10vh;
+color: white;
+}
+
+.people {
+	display: inline;
+	color: #a84d8d;
+	font-size: 4vw;
+}
+
+/*Discrimination*/
+
+.discrimtitle {
+	display: none;
+	position: absolute;
+	left: 9vw;
+top: 848vh;
+color: #900C3F;
+font-size: 7vw;
+}
+
+.discrim {
+	display: none;
+	position: absolute;
+	left: 29vw;
+top: 857vh;
+color: #900C3F;
+font-size: 9vw;
+}
+
+.mean {
+	display: none;
+	position: absolute;
+	left: 10vw;
+top: 895vh;
+	font-size: 3vw;
+	color: #FFC30F;
+}
+
+.disc1 {
+	display: inline;
+	color: #900C3F;
+	font-size: 3vw;
+}
+
+.kinds1 {
+	display: none;
+	position: absolute;
+left: 57vw;
+top: 918vh;
+	font-size: 3vw;
+	color: #FFC30F;
+}
+
+.disc2 {
+	display: inline;
+	color: #900C3F;
+	font-size: 3vw;
+}
+
+.kinds2 {
+	display: none;
+	position: absolute;
+left: 10vw;
+top: 947vh;
+	font-size: 3vw;
+	color: #FFC30F;
+}
+
+.disc3 {
+	display: inline;
+	color: #900C3F;
+	font-size: 3vw;
+}
+
+.def {
+	display: none;
+	position: absolute;
+left: 28vh;
+top: 983vh;
+	font-size: 3vw;
+	color: #FFC30F;
+}
+
+.disc4 {
+	display: inline;
+	color: #900C3F;
+	font-size: 3vw;
+}
+
+.isit1 {
+	display: none;
+	position: absolute;
+	left: 78vh;
+top: 1017vh;
+	font-size: 3vw;
+	color: #C70039;
+}
+
+.isit2 {
+	display: none;
+	position: absolute;
+	left: 81vh;
+top: 1029vh;
+	font-size: 3vw;
+	color: #FF5B37;
+}
+
+.isit3 {
+	display: none;
+	position: absolute;
+	left: 70vh;
+top: 1042vh;
+	font-size: 3vw;
+	color: #4D85BA;
+}
+
+.areyou {
+	display: none;
+	position: absolute;
+	left: 74vh;
+top: 1055vh;
+	font-size: 3vw;
+	color: #581845;;
+}
+
+#top {
+	text-decoration: none;
+
+}

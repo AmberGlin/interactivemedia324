@@ -1,0 +1,68 @@
+ body {
+ 	background-color: black;
+ 	width: 2000px;
+ 	height: 5000px;
+ 	z-index: 0;
+ }
+.font {
+	font-size: 60px;
+	color: white;
+	font-family:'MS Reference Sans Serif';
+}
+ .title {
+ 	color: white;
+ 	position: absolute;
+ 	right: 0px;
+ 	font-size: 60px;
+ 	 
+ }
+
+ .title:hover {
+ 	color: gray;
+ }
+
+.gender {
+
+	
+	color: #575859;
+	position: absolute;
+	text-align: center;
+	left: 33vw;
+	top: 50vh;
+	font-size: 100px;
+
+}
+
+.genderline1 {
+	position: absolute;
+	color: white;
+	left: 10vw;
+	font-size: 80px;
+	left: 10vw;
+	top: 90vh;
+
+}
+
+.two {
+	display: inline;
+	color: gray;
+	font-size: 80px;
+}
+
+
+
+/*.announcement {
+    display: none;
+    background: yellow;
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 6px;
+    z-index: 5;
+}*/
+
+/*.hiddentext {
+  display: none;
+}
+ #reveal {
+ 	display: block;
+ }*/
