@@ -24,16 +24,13 @@
 
 }
 
-
+.project-list {
+	font-size: 2vw;
+	padding: 1vw;
+}
 
 .title {
 
 	font-size: 3vw;
 }
 
-/*body {
-	background-color: blue;
-}*/
-/*p {
-	color: white;
-}*/
