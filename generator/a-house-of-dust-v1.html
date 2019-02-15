@@ -20,6 +20,12 @@
 			font-size: 20px;
 			text-transform: uppercase;
 			font-family: "Courier New", Courier, monospace;
+			
+			text-align: center;
+			margin-top: 300px;
+			min-width: 100%;
+			min-height: 100%;
+			background-color: gray;
 		}
 
 		.button-container {
@@ -59,23 +65,44 @@
 
 			// list one content
 			var one = [
-				"Open",
+					"Open",
 				"Close",
 				"Stop",
-				"Park",
+				"Take",
 				"Work",
 				"Use",
 				"Sell",
 				"Lease",
 				"Reserve",
 				"Speed",
-				// "a house of roots",
-				// "a house of sand",
-				// "a house of steel",
-				// "a house of stone",
-				// "a house of straw",
-				// "a house of tin",
-				// "a house of weeds"
+				"Drag",
+				"Eat",
+				"Grow",
+				"Break",
+				"Steal",
+				"See",
+				"Give",
+				"Expand",
+"Explore",
+"Grind",
+"Hop",
+"Laugh",
+"Make",
+"Pretend",
+"Satisfy",
+"Scrub",
+"Struggle",
+"Surprise",
+"Watch",
+"Ache",
+"Adjust",
+"Become",
+"Collapse",
+"Digest",
+"inspire",
+"justify",
+"forge",
+
 			];
 
 			// list two content
@@ -86,60 +113,61 @@
 				"ice",
 				"coffee",
 				"flowers",
-				"steel",
+				"space",
 				"city",
 				"beauty",
 				"power",
-				// "in a deserted factory",
-				// "in a hot climate",
-				// "in a metropolis",
-				// "in a place with both heavy rain and bright sun",
-				// "in an overpopulated area",
-				// "in dense woods",
-				// "in green mossy terrain",
-				// "in heavy jungle undergrowth",
-				// "in Japan",
-				// "in Michigan",
-				// "in southern France",
-				// "inside a mountain",
-				// "on an island",
-				// "on the sea",
-				// "on open ground",
+				"year",
+				"love",
+				"library",
+				"fashion",
+				"hours",
+				"life",
+				"information",
+				"caution",
+				"steel",
+				"required",
+				"software",
+				"knowledge",
+				"science",
+				"energy",
+				"communication",
+				"anxiety",
+				"success",
+				"consequence",
+				"history",
+				"music",
+				"competition",
+				"woman",
+				"depth",
+				"efficiency",
+				"courage",
 			];
 
 			// list three content
-			// var three = [
-			// 	"using natural light",
-			// 	"using all available lighting",
-			// 	"using candles",
-			// 	"using electricity"
-			// ];
+			var three = [
+			"and fall",
+"and weep",
+"and die",
+"and seek",
+"and collapse",
+"and beg",
+"and answer",
+"and sleep",
+"and hide",
 
-			// // list four content
-			// var four = [
-			// 	"inhabited by very tall people",
-			// 	"inhabited by all races of men reprensented wearing predominantly red clothing",
-			// 	"inhabited by american indians",
-			// 	"inhabited by children and old people",
-			// 	"inhabited by collectors of all types",
-			// 	"inhabited by fishermen and families",
-			// 	"inhabited by french and german speaking people",
-			// 	"inhabited by friends",
-			// 	"inhabited by horses and birds",
-			// 	"inhabited by little boys",
-			// 	"inhabited by lovers",
-			// 	"inhabited by negros wearing all colors",
-			// 	"inhabited by people from many walks of life",
-			// 	"inhabited by people speaking many languages wearing little or no clothing",
-			// 	"inhabited by people who eat a great deal",
-			// 	"inhabited by people who enjoy eating together",
-			// 	"inhabited by people who love to read",
-			// 	"inhabited by people who sleep almost all the time",
-			// 	"inhabited by people who sleep very little",
-			// 	"inhabited by various birds and fish",
-			// 	"inhabited by vegetarians",
-			// 	"inhabited by friends and enemies"
-			// ];
+			];
+
+						var four = [
+"who are you?",
+"what are you?",
+"how are you?",
+"can you do it?",
+"will you do it?",
+"are you human?",
+"are you a meat popsicle?",
+
+			];
 
 			// This is a very common randomizing function.
 			// It takes a list (array) and returns one at random.
@@ -153,8 +181,8 @@
 				// Select a random item from each list
 				var selected_one = select_random(one);
 				var selected_two = select_random(two);
-				// var selected_three = select_random(three);
-				// var selected_four = select_random(four);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
 
 				// Take the selected (random) item from list and make it visible
 				$('.list-one').html(selected_one);

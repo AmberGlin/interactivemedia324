@@ -6,8 +6,14 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="a-house-of-dust-v1-v1.css">
-	<title>A House of Dust</title>
+
+<link href="https://fonts.googleapis.com/css?family=Kanit|Rajdhani" rel="stylesheet">
+
+
+    
+
+
+	<title>GENERATOR</title>
 	
 	<!-- 
 	***** START CSS ***** 
@@ -17,47 +23,95 @@
 		/* You can change the colors, font, and so on below */
 
 		body {
-			margin: 75px;
-			font-size: 2vw;
+			/*margin: 75px;*/
+			font-size: 5vw;
 			text-transform: uppercase;
-			font-family: "Courier New", Courier, monospace;
+			font-family:  monospace;
+/*font-family: 'Kanit', sans-serif;*/
+font-family: 'Rajdhani', sans-serif;
 			text-align: center;
 			margin-top: 300px;
 			min-width: 100%;
 			min-height: 100%;
-			background-color: gray;
-
+			background-color: #252525;
 		}
 
 		.button-container {
 			position: fixed;
-			bottom: 75px;
-			left: 75px;
+			bottom: 15vh;
+left: 49vw;
+			color: gray;
 		}
+	
+		/*.glow {
+			text-shadow: 0 0 6px #0FB417, 0 0 25px #0FCC19;
+		}*/
 
 		.list-one {
-			display: inline;
+			text-align: center;
+			color: #11E41C;
+			
 
 		}
 
+		
 		.list-two {
-			display: inline;
 			text-indent: 1em;
+			text-align: center;
+			color: #11E41C;
+			
 		}
 
 		.list-three {
 			text-indent: 2em;
+			text-align: center;
+			color: #11E41C;
+			
 		}
 
 		.list-four {
-			text-indent: 3em;
+			/*text-indent: 1em;*/
+			text-align: center;
+			line-height: 13vh;
+			color: #11E41C;
+			
 		}
+/*flickering text*/
+		.flicker {
+  -webkit-animation: flicker 2s infinite;
+  text-align:center;
+ 
+}
 
-		.test {
-			color: white;
-		}
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
 
+/*end of flickering text*/
 
+/*.glow {
+  font-size: 80px;
+  color: #11E41C;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #11E41C, 0 0 20px #11E41C, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #11E41C, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}*/
 
 	</style>
 	<!-- 
@@ -74,7 +128,7 @@
 
 			// list one content
 			var one = [
-				"Open",
+					"Open",
 				"Close",
 				"Stop",
 				"Take",
@@ -94,8 +148,8 @@
 				"Expand",
 "Explore",
 "Grind",
-"Hop",
-"Laugh",
+// "Hop",
+// "Laugh",
 "Make",
 "Pretend",
 "Satisfy",
@@ -110,21 +164,17 @@
 "Digest",
 "inspire",
 "justify",
-"forge"
-
-
-
-
+"forge",
 
 			];
 
 			// list two content
 			var two = [
 				"food",
-				"wine",
+				// "wine",
 				"night",
-				"ice",
-				"coffee",
+				// "ice",
+				// "coffee",
 				"flowers",
 				"space",
 				"city",
@@ -133,7 +183,7 @@
 				"year",
 				"love",
 				"library",
-				"fashion",
+				// "fashion",
 				"hours",
 				"life",
 				"information",
@@ -151,17 +201,14 @@
 				"history",
 				"music",
 				"competition",
-				"woman",
+				// "woman",
 				"depth",
 				"efficiency",
-				"courage"
-
-
+				"courage",
 			];
 
-			list three content
+			// list three content
 			var three = [
-
 "and fall",
 "and weep",
 "and die",
@@ -170,19 +217,29 @@
 "and beg",
 "and answer",
 "and sleep",
-"and hide"
+"and hide",
+"and hurry",
+"and choose",
+"and drink",
+"and deflate",
+"and forget"
+
+
 			];
 
-			// list four content
-			var four = [
-
+						var four = [
 "who are you?",
 "what are you?",
 "how are you?",
 "can you do it?",
 "will you do it?",
 "are you human?",
-"are you a meat popsicle?"
+"What brought you here?",
+"are you grateful?",
+"whats your claim?",
+"where are you?",
+"do you see?"
+
 
 			];
 
@@ -230,7 +287,7 @@
 	This is the button.
 	-->
 	<div class="button-container">
-		<button>Again</button>
+		<button>compute</button>
 	</div>
 
 	<!--
@@ -244,10 +301,13 @@
 
 	in the code below.
 	-->
-	<div class="list-one test"></div>
-	<div class="list-two"></div>
-	<div class="list-three"></div>
-	<div class="list-four"></div>
+	<span class="list-one glow"></span>
+	<span class="list-two glow"></span>
+	<span class="list-three flicker glow"></span>
+	<div class="list-four glow"></div>
+
+	
+</div>
 
 </body>
 
