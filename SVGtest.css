@@ -1,0 +1,39 @@
+.taco1 {
+top: 0px;
+  left: 0px;
+  margin: 0px;
+  height: 100px;
+  width:  100px;
+}
+
+#animate {
+  position: absolute;
+ animation: moveA 5s  infinite;
+}
+
+@keyframes moveA {
+  50% {
+     transform: translate(100px, 400px);
+
+  }
+}
+
+.taco2 {
+top: 10px;
+  left: 500px;
+  margin: 0px;
+  height: 100px;
+  width:  100px;
+}
+
+#animate2 {
+  position: absolute;
+  animation: moveB 7s  infinite;
+}
+
+@keyframes moveB {
+  50% {
+     transform: translate(50px, 50px);
+
+  }
+}

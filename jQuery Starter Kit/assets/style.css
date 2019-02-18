@@ -1,0 +1,42 @@
+body {
+  justify-content: center;
+  min-height: 1200px;
+  min-width:  1200px;
+}
+
+.heart {
+background-color: red;
+display: inline-block;
+height: 265px;
+margin: 0 10px;
+position: relative;
+top: 45vh;
+transform: rotate(-45deg);
+width: 265px;
+left: 47vw;
+}
+
+.heart:before,
+.heart:after {
+ content: "";
+background-color: red;
+border-radius: 50%;
+height: 260px;
+position: absolute;
+width: 267px;
+}
+
+.heart:before {
+top: -121px;
+left: 0px;
+}
+
+.heart:after {
+left: 122px;
+top: 5px;
+}
+
+#hidden {
+  display: none;
+}
+
