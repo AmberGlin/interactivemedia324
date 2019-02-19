@@ -1,6 +1,21 @@
-$(document).ready(function(){
-  $("#heart-id").mouseenter(function(){
-    $("#heart-id").fadeOut(5000);
-    
-  });
-});
+ $(document).ready(function() {
+ $(".heart").mouseleave(function(){
+     $(".heart").fadeOut("slow");
+            
+
+
+
+      });
+				
+   });
+
+
+
+ //  $(document).ready(function() {
+ // $("#circle").click(function(){
+ //     $("#circle").fadeOut("slow");
+            
+
+ //      });
+				
+ //   });

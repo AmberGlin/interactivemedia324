@@ -5,6 +5,21 @@ body {
 }
 
 .heart {
+  animation: rotate360 2s linear infinite;  /* animation set */
+  animation-play-state: paused;               /* but paused */
+}
+.heart:hover{
+  animation-play-state: running;              /* trigger on hover */
+}
+@keyframes rotate360 {
+  to {
+  	
+  	transform: rotate(360deg);
+  	/*-webkit-transform: scale(1);*/
+  }         
+}
+
+.heart {
 background-color: red;
 display: inline-block;
 height: 265px;
@@ -40,3 +55,32 @@ top: 5px;
   display: none;
 }
 
+ #circle { 
+ 	width: 100px; 
+ 	height: 100px; 
+ 	background: yellow; 
+ 	border-radius: 50%;
+
+ 	top:0px;
+ 	left: 0px;
+ } 
+
+
+
+/*@keyframes heartani {
+        0% {
+        	
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+        }
+        100% {
+
+            transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+        }
+    }
+
+    #heart-id {
+        animation: heartani 5s ease-in-out infinite alternate;
+        -webkit-animation: heartani 5s ease-in-out infinite alternate;
+    }*/
