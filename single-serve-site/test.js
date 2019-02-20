@@ -1,44 +1,54 @@
-$(document).ready(function(){
-    animateDiv();
-    
+//Corresponding blog post: https://danielcwilson.com/blog/2015/08/animations-part-3 
+
+var a = document.querySelectorAll('div');
+a = Array.prototype.slice.call(a);
+
+a.forEach(function(el, i, ra) {
+  var to = {
+    x: Math.random() * (i % 2 === 0 ?-11 : 11),
+    y: Math.random() * 12
+  }
+
+
+  el.animate([
+    { transform: 'translate(0,0)' },
+    { transform: 'translate('+to.x+'rem,'+to.y+'rem)' }
+  ], {
+    duration: (Math.random() + 1) * 2000,
+    direction: 'alternate',
+    fill: 'both',
+    iterations: Infinity,
+    easing: 'ease-in-out'
+  });
 });
 
-function makeNewPosition(){
-    
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 50;
-    var w = $(window).width() - 50;
-    
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
-    
-    return [nh,nw];    
-    
-}
+var button = document.querySelector('input');
 
-function animateDiv(){
-    var newq = makeNewPosition();
-    var oldq = $('.taco-1').offset();
-    var speed = calcSpeed([oldq.top, oldq.left], newq);
-
-    $('.taco-1').animate({ top: newq[0], left: newq[1] }, speed, function(){
-      animateDiv();        
+button.addEventListener('click', function(e) {
+  //Get all the AnimationPlayers
+  var players;
+  if (typeof document.getAnimations === 'function') {
+    players = document.getAnimations();
+  } else {
+    players = document.timeline.getAnimations();
+  }
+  if (players && players.length) {
+    console.log(players);
+    var action;
+    if (players[0].playState === 'running') {
+      action = 'pause';
+    } else if (players[0].playState === 'paused') {
+      action = 'play';
+    } else {
+      return;
+    }
+    players.forEach(function(player, i, ra) {
+      player[action](); //player.pause() or player.play()
+      
     });
-    
-};
 
-function calcSpeed(prev, next) {
-    
-    var x = Math.abs(prev[1] - next[1]);
-    var y = Math.abs(prev[0] - next[0]);
-    
-    var greatest = x > y ? x : y;
-    
-    var speedModifier = .4;
-
-    var speed = Math.ceil(greatest/speedModifier);
-
-    return speed;
-
-}
-// 
+    button.value = (action === 'play') ? 'Pause All' : 'Play All';
+  } else {
+    console.log('No active animations');
+  }
+});

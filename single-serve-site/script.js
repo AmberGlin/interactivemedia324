@@ -6,8 +6,8 @@ $(document).ready(function(){
 function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 50;
-    var w = $(window).width() - 50;
+    var h = $(window).height() - 100;
+    var w = $(window).width() - 100;
     
     var nh = Math.floor(Math.random() * h);
     var nw = Math.floor(Math.random() * w);
@@ -18,7 +18,7 @@ function makeNewPosition(){
 
 function animateDiv(){
     var newq = makeNewPosition();
-    var oldq = $('.taco-1').offset();
+    var oldq = $('.taco-1', ).offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
 
     $('.taco-1').animate({ top: newq[0], left: newq[1] }, speed, function(){

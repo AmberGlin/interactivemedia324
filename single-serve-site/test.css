@@ -53,17 +53,32 @@ body {
 
 /*taco-1*/
 
-/*moving square */
+/*moving balls */
 
-div.taco-1 {
+$back: #324242;
+$white: #f3f3f8;
 
-position: fixed;
-    
+
+div {
+  width: 1rem;
+  height: 1rem;
+  background: $white;
+  border-radius: 1rem;
+  display: inline-block;
+  margin: 1rem;
 }
 
-
-div.taco-2 {
-
-position: relative;
-    
+input {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  appearance: none;
+  border: 2px solid $white;
+  border-radius: .4rem;
+  color: $white;
+  background: $back;
+  line-height: 3;
+  padding: 0 1rem;
+  font-size: 1rem;
 }
