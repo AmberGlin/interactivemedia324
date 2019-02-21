@@ -1,13 +1,8 @@
-$(document).ready(function(){
-    animateDiv();
-    
-});
-
 function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 100;
-    var w = $(window).width() - 100;
+    var h = $(window).height() - 50;
+    var w = $(window).width() - 50;
     
     var nh = Math.floor(Math.random() * h);
     var nw = Math.floor(Math.random() * w);
@@ -16,16 +11,16 @@ function makeNewPosition(){
     
 }
 
-function animateDiv(){
+function animateDiv(element){
     var newq = makeNewPosition();
-    var oldq = $('.taco-1', ).offset();
+    var oldq = $(element).offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
-
-    $('.taco-1').animate({ top: newq[0], left: newq[1] }, speed, function(){
-      animateDiv();        
+    
+    $(element).animate({ top: newq[0], left: newq[1] }, speed, function(){
+      animateDiv(element);        
     });
     
-};
+}
 
 function calcSpeed(prev, next) {
     
@@ -34,11 +29,16 @@ function calcSpeed(prev, next) {
     
     var greatest = x > y ? x : y;
     
-    var speedModifier = .4;
+    var speedModifier = .5;
 
     var speed = Math.ceil(greatest/speedModifier);
 
     return speed;
 
 }
-// 
+
+$(document).ready(function(){
+    $('.taco').each((i, item) => {
+        animateDiv(item);
+    });
+});
