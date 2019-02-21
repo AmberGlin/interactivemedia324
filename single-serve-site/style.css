@@ -67,3 +67,12 @@ div.taco-2 {
 position: relative;
     
 }
+
+#show1 {
+  display: none;
+}
+
+#show2 {
+  display: none;
+}
+

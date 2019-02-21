@@ -59,13 +59,37 @@ $(document).ready(function(){
   });
     
 
-
-    $(".hide3").click(function(){
+  $(".hide3").click(function(){
     $(".hide3").hide();
   });
-      $(".hide4").click(function(){
+
+
+   $(".hide4").click(function(){
     $(".hide4").hide();
   });
 
+  $(".hide5").click(function(){
+    $(".hide5").hide();
+  });
+
+
+ $(".hide6").click(function(){
+    $(".hide6").hide();
+  });
+
+
+ $(".hide7").click(function(){
+    $(".hide7").hide();
+  });
+
+
+  $(".hide8").click(function(){
+    $(".hide8").hide();
+  });
+
+
+ $(".hide9").click(function(){
+    $(".hide9").hide();
+  });
 
   

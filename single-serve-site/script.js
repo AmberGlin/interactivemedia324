@@ -29,7 +29,7 @@ function calcSpeed(prev, next) {
     
     var greatest = x > y ? x : y;
     
-    var speedModifier = .5;
+    var speedModifier = .4;
 
     var speed = Math.ceil(greatest/speedModifier);
 
@@ -42,3 +42,50 @@ $(document).ready(function(){
         animateDiv(item);
     });
 });
+
+  $(".hide1").click(function(){
+    $(".hide1").hide();
+ 
+  });
+
+ $(".hide1").click(function(){
+    $("#show1").show();
+  }); 
+
+
+  $(".hide2").click(function(){
+    $(".hide2").hide();
+  });
+    
+
+  $(".hide3").click(function(){
+    $(".hide3").hide();
+  });
+
+
+   $(".hide4").click(function(){
+    $(".hide4").hide();
+  });
+
+  $(".hide5").click(function(){
+    $(".hide5").hide();
+  });
+
+
+ $(".hide6").click(function(){
+    $(".hide6").hide();
+  });
+
+  $(".hide6").click(function(){
+    $("#show2").show();
+  }); 
+
+
+ $(".hide7").click(function(){
+    $(".hide7").hide();
+  });
+
+
+  $(".hide8").click(function(){
+    $(".hide8").hide();
+  });
