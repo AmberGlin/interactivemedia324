@@ -89,3 +89,7 @@ $(document).ready(function(){
   $(".hide8").click(function(){
     $(".hide8").hide();
   });
+
+  $('#button').click(function() {
+    location.reload();
+});
