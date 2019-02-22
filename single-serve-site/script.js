@@ -43,22 +43,22 @@ $(document).ready(function(){
     });
 });
 
-      $(document).ready(function() {
-        var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'http://www.uscis.gov/files/nativedocuments/Track%2093.mp3');
-        audioElement.setAttribute('autoplay', 'autoplay');
-        //audioElement.load()
-        $.get();
-        audioElement.addEventListener("load", function() {
-        audioElement.play();
-        }, true);
+      // $(document).ready(function() {
+      //   var audioElement = document.createElement('audio');
+      //   audioElement.setAttribute('src', 'https://amberglin.github.io/interactivemedia324/single-serve-site/dp_galaga88_start.mp3');
+      //   audioElement.setAttribute('autoplay', 'autoplay');
+      //   //audioElement.load()
+      //   $.get();
+      //   audioElement.addEventListener("load", function() {
+      //   audioElement.play();
+      //   }, true);
 
 
 
 
-        $('.taco').click(function() {
-        audioElement.play();
-        });
+      //   $('.play').click(function() {
+      //   audioElement.play();
+      //   });
 
 
 $(".hide1").click(function(){
