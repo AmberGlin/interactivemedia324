@@ -57,9 +57,10 @@ body {
   }
 }
 
-#button {
-  position: absolute;
+button {
+  position: fixed;
 }
+
 
 /*taco-1*/
 

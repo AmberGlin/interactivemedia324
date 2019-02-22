@@ -90,6 +90,6 @@ $(document).ready(function(){
     $(".hide8").hide();
   });
 
-  $('#button').click(function() {
+  $('button').click(function() {
     location.reload();
 });
