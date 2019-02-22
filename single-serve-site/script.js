@@ -43,6 +43,24 @@ $(document).ready(function(){
     });
 });
 
+      $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'http://www.uscis.gov/files/nativedocuments/Track%2093.mp3');
+        audioElement.setAttribute('autoplay', 'autoplay');
+        //audioElement.load()
+        $.get();
+        audioElement.addEventListener("load", function() {
+        audioElement.play();
+        }, true);
+
+
+
+
+        $('.taco').click(function() {
+        audioElement.play();
+        });
+
+
 $(".hide1").click(function(){
     $(".hide1").hide();
  
@@ -296,13 +314,16 @@ $(".hide11").click(function(){
   });
     
                $(".hide45").click(function(){
-    $("#show8").show();
+    $(".show8").show();
   });
 
-    
+                   $(".hide45").click(function(){
+    $(".show9").show();
+  });
 
     
 
   $('button').click(function() {
     location.reload();
 });
+
