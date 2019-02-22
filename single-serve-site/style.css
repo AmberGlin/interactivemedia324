@@ -2,11 +2,17 @@ body {
   width: 100%;
   height: 100%;
 }
-img {
-  background: url("https://amberglin.github.io/interactivemedia324/single-serve-site/taco%20graphic%20PNG.png");
-  background-repeat: no-repeat;
-  max-width: 100%;
-  height: auto;
+
+
+#test {
+position: relative;
+z-index: 0
+
+}
+
+.img {
+ left: 10vw;
+top: 10vh; 
 }
 
 /*Gradient animation*/
