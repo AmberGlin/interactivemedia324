@@ -1,10 +1,11 @@
 #container {
  	background-image: linear-gradient(#683f69, #d16b93, #8E1B47, #000924);
  	max-width: 15000px;
- 	min-height: 16000px;
+ 	min-height: 15000px;
  	z-index: 0;
  	padding: 0;
  	margin: 0;
+ 	
  }
  /*colors*/
  /*gold #FFC30F;*/
@@ -38,6 +39,8 @@
  	position: absolute;
  	right: 5vw;
  	font-size: 3vw;
+ 	cursor: pointer;
+
  }
 
 /* .title:hover {
@@ -48,25 +51,30 @@
  .whatis {
  	color: #FF5B37;
  	display: inline-block;
+ 	cursor: pointer;
  }
 .ge {
 	color: #02185d;
 	display: inline;
+	cursor: pointer;
 }
 
 .nd {
 	color: #581845;
 	display: inline;
+	cursor: pointer;
 }
 
 .er {
 	color: #f67e7d;
 	display: inline;
+	cursor: pointer;
 }
 
 .q {
 	color: #FF5B37;
 	display: inline;
+	cursor: pointer;
 
 }
  .gender {
@@ -76,6 +84,7 @@
 	left: 29vw;
 top: 55vh;
 	font-size: 6vw;
+	cursor: pointer;
 }
 
 /*.gender:hover {
@@ -90,11 +99,13 @@ top: 55vh;
 	left: 7vw;
 top: 80vh;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .bio {
 	display: inline;
 	/*color: gray;*/
+	cursor: pointer;
 }
 
 .sexes {
@@ -105,6 +116,7 @@ top: 80vh;
 	font-size: 3vw;
 	left: 28vw;
 top: 99vh;
+cursor: pointer;
 }
 
 .perception {
@@ -115,6 +127,7 @@ top: 99vh;
 	font-size: 3vw;
 	left: 49vw;
 top: 120vh;
+cursor: pointer;
 }
 
 .whose {
@@ -126,6 +139,7 @@ left: 0vw;
 	top: 140vh;
 	margin-left: 2vw;
 	color: #F14F2B;
+	cursor: pointer;
 }
 
 .isit {
@@ -136,6 +150,7 @@ left: 0vw;
 left: 7.5vw;
 top: 160vh;
 color: #FF5B37;
+cursor: pointer;
 }
 
 .yourself {
@@ -146,31 +161,38 @@ color: #FF5B37;
 	left: 20vw;
 top: 218vh;
 
+
 }
 
 .yourself2 {
 	font-size: 4vw;
 	line-height: 13vh;
+	
 }
 
 .typi {
 	display: inline;
+	cursor: pointer;
 }
 
-.typi:hover {
+/*.typi:hover {
 	color: #f67e7d;
-}
+	cursor: pointer;
+}*/
 
 .lineheight {
 	line-height: 8vw;
+	cursor: pointer;
 }
 
 #wrap10 {
 	display: inline;
+	cursor: pointer;
 }
 
 .fsize {
 	font-size: 4vw;
+	cursor: pointer;
 }
 
 .tm {
@@ -178,19 +200,23 @@ top: 218vh;
 	position: absolute;
 	left: -15vw;
 top: 23vh;
+cursor: pointer;
 }
 
 .man {
 	display: inline;
-	color: #4D85BA
+	color: #4D85BA;
+	cursor: pointer;
 }
 
 .mancolor {
  color: #0040FF;
+ cursor: pointer;
 }
 
 #wrap11{
 	display: inline;
+	cursor: pointer;
 }
 
 .tw {
@@ -198,20 +224,24 @@ top: 23vh;
 	position: absolute;
 	top: 30vh;
 right: -20.5vw;
+cursor: pointer;
 
 }
 
 .woman {
 	display: inline;
 	color: #ffb8b7e6;
+	cursor: pointer;
 }
 
 .womancolor {
 	color: #d700ff;
+	cursor: pointer;
 }
 
 #wrap12 {
 	display: inline;
+	cursor: pointer;
 }
 
 .wdtm {
@@ -221,12 +251,14 @@ right: -20.5vw;
 	left: 5.5vw;
 	top: 291vh;
 	font-size: 6vw;
+	cursor: pointer;
 
 }
 
 .typical1 {
 	display: inline;
 	font-size: 12vw;
+	cursor: pointer;
 }
 
 .can {
@@ -236,17 +268,20 @@ right: -20.5vw;
 	left: 3vw;
 top: 355vh;
 	font-size: 3vw;
+	cursor: pointer;
 
 }
 
 .men {
 	display: inline;
-	color: #4D85BA 
+	color: #4D85BA;
+	cursor: pointer; 
 }
 
 .clothing {
 	display: inline-block;
 	color: #ffb8b7e6;
+	cursor: pointer;
 }
 
 
@@ -258,6 +293,7 @@ left: 53vw;
 top: 341vh;
 font-size: 12vw;
 color: #FFC30F;
+cursor: pointer;
 }
 
 .goldtypical2 {
@@ -267,6 +303,7 @@ left: 3vw;
 top: 384vh;
 font-size: 12vw;
 color: #FFC30F;
+cursor: pointer;
 }
 
 .goldtypical3 {
@@ -276,6 +313,7 @@ left: 51vw;
 top: 424vh;
 font-size: 12vw;
 color: #FFC30F;
+cursor: pointer;
 }
 
 .goldtypical4 {
@@ -285,6 +323,7 @@ left: 2.5vw;
 top: 468vh;
 font-size: 12vw;
 color: #FFC30F;
+cursor: pointer;
 }
 
 .do {
@@ -294,12 +333,14 @@ color: #FFC30F;
 	left: 51vw;
 top: 398vh;
 	font-size: 3vw;
+	cursor: pointer;
 
 }
 
 .makeup {
 	display: inline;
 	color: #E12D60;
+	cursor: pointer;
 }
 
 .can2 {
@@ -309,17 +350,20 @@ top: 398vh;
 	left: 7vw;
 top: 437vh;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .men2 {
 	display: inline;
 	color: #4D85BA; 
+	cursor: pointer;
 
 }
 
 .makeup2 {
 	display: inline;
 	color: #ffb8b7e6;
+	cursor: pointer;
 
 }
 
@@ -330,11 +374,13 @@ top: 437vh;
 	left: 51vw;
 top: 482vh;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .feminine {
 	display: inline;
 	color: #E12D60;
+	cursor: pointer;
 }
 
 .whatbehave1 {
@@ -344,27 +390,32 @@ top: 482vh;
 	left: 13.5vw;
 top: 512vh;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .behaviors {
 	display: inline;
 	color: #CA0900;
 	font-size: 4vw;
+	cursor: pointer;
 }
 
 .behavemen {
 	display: inline;
 	color: #4D85BA;
+	cursor: pointer;
 }
 
 .inappro {
 	display: inline;
 	font-size: 4vw;
+	cursor: pointer;
 }
 
 .behavewomen {
 	display: inline;
 	color: #E12D60;
+	cursor: pointer;
 }
 
 .whatbehave2 {
@@ -375,18 +426,21 @@ top: 512vh;
 	left: 12vw;
 top: 548vh;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .appro {
 	display: inline;
 	font-size: 4vw;
 	color: #FF5B37;
+	cursor: pointer;
 }
 
 .notanother {
 	display: inline;
 	font-size: 4vw;
 	color: #FFC30F;
+	cursor: pointer;
 }
 
 /*race section*/
@@ -398,24 +452,27 @@ top: 548vh;
 	top: 597vh;
 	color: #700404;
 	font-size: 5vw;	
+	cursor: pointer;
 }
 
 .difference {
 	display: none;
 	position: absolute;
-	
 	color: #F4451E;
 	font-size: 4vw;
+	cursor: pointer;
 }
 
 .position1 {
 	left: 23vw;
 top: 623vh;
+cursor: pointer;
 }
 
 .position2 {
 	left: 32vw;
 top: 771vh;
+cursor: pointer;
 }
 
 .identity {
@@ -426,6 +483,7 @@ top: 771vh;
 	top: 640vh;
 	font-size: 6vw;
 	color: white;
+	cursor: pointer;
 }
 
 .peopleask {
@@ -437,6 +495,7 @@ top: 771vh;
 top: 657vh;
 	color: #FFC30F;
 	line-height: 26vh;
+	cursor: pointer;
 }
 
 .interactions {
@@ -446,6 +505,7 @@ top: 657vh;
 top: 679vh;
 	color: #a84d8d;
 	font-size: 5vw;
+	cursor: pointer;
 }
 
 .treat {
@@ -456,6 +516,7 @@ top: 678vh;
 color: #a84d8d;
 font-size: 5vw;
 line-height: 16vh;
+cursor: pointer;
 }
 
 .treat2 {
@@ -467,12 +528,14 @@ color: #a84d8d;
 font-size: 3vw;
 line-height: 10vh;
 color: white;
+cursor: pointer;
 }
 
 .people {
 	display: inline;
 	color: #a84d8d;
 	font-size: 4vw;
+	cursor: pointer;
 }
 
 /*Discrimination*/
@@ -484,6 +547,7 @@ color: white;
 top: 848vh;
 color: #900C3F;
 font-size: 7vw;
+cursor: pointer;
 }
 
 .discrim {
@@ -493,6 +557,7 @@ font-size: 7vw;
 top: 857vh;
 color: #900C3F;
 font-size: 9vw;
+cursor: pointer;
 }
 
 .mean {
@@ -502,12 +567,14 @@ font-size: 9vw;
 top: 895vh;
 	font-size: 3vw;
 	color: #FFC30F;
+	cursor: pointer;
 }
 
 .disc1 {
 	display: inline;
 	color: #900C3F;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .kinds1 {
@@ -517,12 +584,14 @@ left: 57vw;
 top: 918vh;
 	font-size: 3vw;
 	color: #FFC30F;
+	cursor: pointer;
 }
 
 .disc2 {
 	display: inline;
 	color: #900C3F;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .kinds2 {
@@ -532,12 +601,14 @@ left: 10vw;
 top: 947vh;
 	font-size: 3vw;
 	color: #FFC30F;
+	cursor: pointer;
 }
 
 .disc3 {
 	display: inline;
 	color: #900C3F;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .def {
@@ -547,12 +618,14 @@ left: 28vh;
 top: 983vh;
 	font-size: 3vw;
 	color: #FFC30F;
+	cursor: pointer;
 }
 
 .disc4 {
 	display: inline;
 	color: #900C3F;
 	font-size: 3vw;
+	cursor: pointer;
 }
 
 .isit1 {
@@ -562,6 +635,7 @@ top: 983vh;
 top: 1017vh;
 	font-size: 3vw;
 	color: #C70039;
+	cursor: pointer;
 }
 
 .isit2 {
@@ -571,6 +645,7 @@ top: 1017vh;
 top: 1029vh;
 	font-size: 3vw;
 	color: #FF5B37;
+	cursor: pointer;
 }
 
 .isit3 {
@@ -580,6 +655,7 @@ top: 1029vh;
 top: 1042vh;
 	font-size: 3vw;
 	color: #4D85BA;
+	cursor: pointer;
 }
 
 .areyou {
@@ -588,10 +664,12 @@ top: 1042vh;
 	left: 74vh;
 top: 1055vh;
 	font-size: 3vw;
-	color: #581845;;
+	color: #581845;
+	cursor: pointer;
 }
 
 #top {
 	text-decoration: none;
+	cursor: pointer;
 
 }

@@ -15,22 +15,77 @@
  	font-family: 'avantgarde_md_btMdOb';
  }
 
+.font5 {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Open Sans', sans-serif;*/
+
+
+
+/*end fonts*/
+
+#title {
+	font-size: 4vw;
+	padding-top: 10vh;
+	color: #561fff;
+
+}
+
 
 #bodycontainer {
 	max-width: 100%;
 	max-height: 100%;
 	background-color: #7d7df8;
 	text-align: center;
+font-family: 'Gruppo', cursive;
 
 }
 
 .project-list {
-	font-size: 2vw;
+	
 	padding: 1vw;
+	padding-top: 12vh;
+	font-family: 'Gruppo', cursive;
+
 }
 
-.title {
-
-	font-size: 3vw;
+.exercises {
+	
+	padding: 1vw;
+	font-family: 'Gruppo', cursive;
 }
 
+#place {
+	position: absolute;
+	top: 33vh;
+	left: 37vw;
+	font-size: 2vw;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+nav {left: 10vw;}
+nav ul {text-align: center;}
+nav ul li {float:left; display: inline;}
+nav ul li:hover {}
+nav ul li a {display: block; padding: 15px 25px; color: #6E0996;}
+nav ul li ul {position: absolute; width: 110px;}
+nav ul li ul li {width: 110px;}
+nav ul li ul li a {display: block; padding: 15px 10px; color: #6E0996;}
+nav ul li ul li:hover a {}
+nav ul li ul.fallback {display: none;}
+nav ul li:hover ul.fallback {display: block;}
