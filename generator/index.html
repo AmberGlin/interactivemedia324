@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="test.css">
+<link href="https://fonts.googleapis.com/css?family=Kanit|Rajdhani" rel="stylesheet">
+
+
+    
+
+
+	<title>Generator</title>
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		
+
+/*.glow {
+  font-size: 80px;
+  color: #11E41C;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #11E41C, 0 0 20px #11E41C, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #11E41C, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}*/
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+					"Open",
+				"Close",
+				"Stop",
+				"Take",
+				"Work",
+				"Use",
+				"Sell",
+				"Lease",
+				"Reserve",
+				"Speed",
+				"Drag",
+				"Eat",
+				"Grow",
+				"Break",
+				"Steal",
+				"See",
+				"Give",
+				"Expand",
+"Explore",
+"Grind",
+// "Hop",
+// "Laugh",
+"Make",
+"Pretend",
+"Satisfy",
+"Scrub",
+"Struggle",
+"Surprise",
+"Watch",
+"Ache",
+"Adjust",
+"Become",
+"Collapse",
+"Digest",
+"inspire",
+"justify",
+"forge",
+
+			];
+
+			// list two content
+			var two = [
+				"food",
+				// "wine",
+				"night",
+				// "ice",
+				// "coffee",
+				"flowers",
+				"space",
+				"city",
+				"beauty",
+				"power",
+				"year",
+				"love",
+				"library",
+				// "fashion",
+				"hours",
+				"life",
+				"information",
+				"caution",
+				"steel",
+				"required",
+				"software",
+				"knowledge",
+				"science",
+				"energy",
+				"communication",
+				"anxiety",
+				"success",
+				"consequence",
+				"history",
+				"music",
+				"competition",
+				// "woman",
+				"depth",
+				"efficiency",
+				"courage",
+			];
+
+			// list three content
+			var three = [
+"and fall",
+"and weep",
+"and die",
+"and seek",
+"and collapse",
+"and beg",
+"and answer",
+"and sleep",
+"and hide",
+"and hurry",
+"and choose",
+"and drink",
+"and deflate",
+"and forget"
+
+
+			];
+
+						var four = [
+"who are you?",
+"what are you?",
+"how are you?",
+"can you do it?",
+"will you do it?",
+"are you human?",
+"What brought you here?",
+"are you grateful?",
+"whats your claim?",
+"where are you?",
+"do you see?"
+
+
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+				$('.list-three').html(selected_three);
+			    $('.list-four').html(selected_four);
+
+  $(".list-three").on('click', function(){
+    $(".list-four").show();
+  });
+  
+
+  $('.list-four').click(function() {
+    location.reload();
+});
+
+
+			}
+
+$('.list-four').click(function(){
+	generate();
+			});
+
+			generate();
+			
+		});
+  
+
+
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+<!-- 	<div class="button-container">
+		<button>compute</button>
+	</div> -->
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, change...
+
+	<div></div>
+	to
+	<span></span>
+
+	in the code below.
+	-->
+	<span class="list-one glow"></span>
+	<span class="list-two glow"></span>
+	<span class="list-three flicker glow"></span>
+	<div class="list-four glow"></div>
+
+	
+</div>
+
+</body>
+
+</html>
