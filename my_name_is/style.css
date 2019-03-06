@@ -2,6 +2,7 @@ body {
 	height: 100%;
 	width: 100%;
 	background-color: #ff8700;
+	font-family: 'Merriweather', serif;
 
 
 }
@@ -11,15 +12,26 @@ body {
 	width:120vw;
 }
 .mytext {
-	text-align: center;
-	position: absolute;
-	display: inline;
-	font-size: 5vw;
-	z-index: 5;
-	top: 2vh;
+text-align: center;
+    position: absolute;
+    display: inline;
+    font-size: 5vw;
+    z-index: 5;
+    top: 2vh;
+    left: 33vw;
 
 }
 
+
+
+.link {
+	position: absolute;
+left: 53vw;
+
+top: 16vh;
+
+font-size: 4vh;
+}
 .coffee {
 	position: absolute;
 	top: 25vh;
@@ -47,20 +59,20 @@ position: relative;
 /*second row*/
 .outofhere {
 	position: relative;
-top: 57vh;
-left: 9.25vw;
+top: 54vh;
+left: 21.25vw;
 
 }
 .accept {
 	position: relative;
 	display: inline-block;
-	left: 21.25vw;
+	left: 1vw; 
 }
 
 .iknow {
 	position: relative;
 	display: inline-block;
-	left: 21.25vw;
+	left: 1vw; 
 }
 
 .feelings {
@@ -74,14 +86,15 @@ left: 9.25vw;
 .kelly {
 	position: relative;
 	display: inline-block;
-top: 59vh;
-left: 9.25vw;
+top: 56.5vh;
+left: 21.25vw;
 }
 
 .what {
 	position: relative;
 	display: inline-block;
 	left: 1vw;
+	padding-bottom: 100px;
 }
 
 .ok {
