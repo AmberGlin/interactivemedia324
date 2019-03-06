@@ -2,7 +2,7 @@ body {
 	height: 100%;
 	width: 100%;
 	text-align: center;
-	background-color: #e37a03;
+	background-color: #feb300;
 	font-family: 'Merriweather', serif;
 
 
@@ -27,7 +27,8 @@ position: relative;
 
 }
 
-.actcasual {
+.fine {
+	position: relative;
 	margin: 5vw;
-
+	top: 2vh;
 }
