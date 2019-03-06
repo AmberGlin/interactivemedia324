@@ -18,7 +18,7 @@ text-align: center;
     font-size: 5vw;
     z-index: 5;
     top: 2vh;
-    left: 33vw;
+    left: 5vw;
 
 }
 
@@ -26,7 +26,7 @@ text-align: center;
 
 .link {
 	position: absolute;
-left: 53vw;
+left: 7vw;
 
 top: 16vh;
 
@@ -97,7 +97,7 @@ left: 21.25vw;
 	padding-bottom: 100px;
 }
 
-.ok {
+.fine {
 	position: relative;
 	display: inline-block;
 	left: 1vw;
