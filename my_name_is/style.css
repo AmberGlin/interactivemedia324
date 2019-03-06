@@ -1,10 +1,15 @@
 body {
 	height: 100%;
 	width: 100%;
+	background-color: #ff8700;
 
 
 }
 
+.size {
+	height:120vh;
+	width:120vw;
+}
 .mytext {
 	text-align: center;
 	position: absolute;
@@ -13,4 +18,80 @@ body {
 	z-index: 5;
 	top: 2vh;
 
+}
+
+.coffee {
+	position: absolute;
+	top: 25vh;
+	left: 22vw;
+}
+.actcasual {
+	position: relative;
+	display: inline-block;
+	left: 1vw;
+}
+
+.gun {
+position: relative;
+	display: inline-block;
+	left: 1vw;
+}
+
+.printer {
+position: relative;
+	display: inline-block;
+	left: 1vw;	
+}
+/*enf of forst row*/
+
+/*second row*/
+.outofhere {
+	position: relative;
+top: 57vh;
+left: 9.25vw;
+
+}
+.accept {
+	position: relative;
+	display: inline-block;
+	left: 21.25vw;
+}
+
+.iknow {
+	position: relative;
+	display: inline-block;
+	left: 21.25vw;
+}
+
+.feelings {
+	position: relative;
+	display: inline-block;
+	left: 1vw;
+}
+/*end second row*/
+
+/*third row*/
+.kelly {
+	position: relative;
+	display: inline-block;
+top: 59vh;
+left: 9.25vw;
+}
+
+.what {
+	position: relative;
+	display: inline-block;
+	left: 1vw;
+}
+
+.ok {
+	position: relative;
+	display: inline-block;
+	left: 1vw;
+}
+
+.nohope {
+	position: relative;
+	display: inline-block;
+	left: 1vw;
 }
