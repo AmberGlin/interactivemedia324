@@ -15,24 +15,31 @@ body {
 }
 
 .TP {
+    
     position: absolute;
 display: inline;
+top: 20vh;
+left: 19vw;
 
 }
 
 .TO {
     position: absolute;
 	display: inline;
+    top: 19.15vh;
+left: 21.5vw;
 
 
 }
 
 .TY {
+    position: absolute;
 display: inline;
 
 }
 
 .TPP {
+    position: absolute;
 display: inline;
 
 }
