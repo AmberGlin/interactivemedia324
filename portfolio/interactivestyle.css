@@ -6,7 +6,6 @@ body {
 
 }
 
-
 .nav-orange {
 	position: relative;
 right: -84vw;
@@ -29,119 +28,154 @@ top: 21vh;
 left: 2vw;
 }
 
-.menu-wavy {
-		position: absolute;
+.nav {
+	width: 4vw;
+	height: 3vh;
+	position: relative;
+left: 83vw;
+top: 2vh;
+margin: 5px;
+}
 
+.navtext {
 display: inline;
 
-top: 59vh;
+color: orange;
 
-left: 2vw;
+font-family: 'Poppins', sans-serif;
+
+font-weight: 200;
+
+font-size: .7vw;
+
+left: 71vw;
+
+position: relative;
+
+top: 2vh;
 }
 
+.about {
+	color: #6e45a6;
+
+position: relative;
+
+left: 69vw;
+
+top: 2.5vh;
 }
 
-* {
-  box-sizing: border-box;
-  
-  
+
+.photo {
+	color: #ffb600;
+position: relative;
+left: 71.5vw;
+    top: 2.5vh;
 
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-  padding-left: 2vw;
-  height: 100%;
-   /* Should be removed. Only for demonstration */
+.int {
+	color: #fc561d;
+
+position: relative;
+left: 71.75vw;
+    top: 2.5vh;
+
+
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  text-align: center;
 
+#imagecanvas {
+
+position: absolute;
+
+right: 0vw;
+
+top: 27vh;
+
+width: 50%;
+
+height: 100%;
+
+
+}
+
+
+.gtimg {
+position: relative;
+
+width: 30vw;
+
+display: block;
+
+margin-left: auto;
+
+margin-right: auto;
+
+display: none;
+
+}
+
+.eximg {
+position: absolute;
+
+width: 30vw;
+
+display: block;
+
+margin-left: auto;
+
+margin-right: auto;
+
+display: none;
+
+
+}
+
+.obimg {
+position: relative;
+
+width: 30vw;
+
+display: block;
+
+margin-left: auto;
+
+margin-right: auto;
+
+display: none;
 }
 
 .text {
-	top: 10vh;
-	color: #ff1d7c;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	margin-top: 15vh;
+color: #ff4242;
+
+font-family: 'Poppins', sans-serif;
+
+font-weight: 300;
+
 font-size: 1.5vw;
-line-height: 8vh;
 
-}
+line-height: 5vh;
 
-.position {
-	height: 25%;
-	width: 25%;
-	margin-top: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	margin-right: 51vh;
-display: block;
-
-}
-
-.position2 {
-	height: 30%;
-	width: 30%;
-	margin-top: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	margin-right: 35vh;
-display: block;
-
-}
-
-.position3 {
-	height: 20%;
-	width: 20%;
-	margin-top: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	margin-right: 60vh;
-display: block;
-
-}
-
-#OB {
-	top: 15vh;
-	position: relative;
-	display: none;
-}
-
-.image {
-margin-top: 12vh;
-margin-left: -26vw;
-}
-
-#light {
-	display: none;
-}
-
-#ex {
-cursor: pointer;
-}
-
-#ob {
-	cursor: pointer;
-}
-
-#gt {
- cursor: pointer;
-}
-
-#eximg {
-	top: 20vh;
 position: relative;
-right: 6vw;
 
-display: none;
+top: 27vh;
+
+margin-left: 1.5vw;
+}
+
+.ex {
+cursor: pointer;
+
+
+}
+
+.ob {
+	cursor: pointer;
+
+}
+
+.gt {
+ cursor: pointer;
+ 
 }
