@@ -1,61 +1,92 @@
 body {
 	height: 100%;
-	min-width: 100%;
-	background-color: #222121;
-	
-
+	max-width: 100%;
+	background-color: #3d3b3b;
 }
 
-.nav-orange {
-	position: relative;
-right: -84vw;
-top: 2vh;
-}
 
-.nav-purpl {
-	position: relative;
-	right: -94vw;
-top: 2vh;
-}
-
+/*design*/
 .menu-symbol {
+	
 	position: absolute;
-
 display: inline;
-
-top: 21vh;
-
-left: 2vw;
+top: 19vh;
+left: 1.75vw;
+width: 14vw;
+height: 10vh;
 }
 
-.nav {
-	width: 4vw;
-	height: 3vh;
-	position: relative;
-left: 83vw;
-top: 2vh;
-margin: 5px;
-}
-
-.navtext {
-display: inline;
-
-color: orange;
-
-font-family: 'Poppins', sans-serif;
-
-font-weight: 200;
-
-font-size: .7vw;
-
-left: 71vw;
-
-position: relative;
-
-top: 2vh;
-}
 
 .about {
+	
+	color: #6e45a6;
+position: relative;
+left: 69vw;
+top: 2.5vh;
+}
+
+
+.photo {
+	
+	color: #ffb600;
+position: relative;
+left: 71.5vw;
+    top: 2.5vh;
+
+}
+
+.int {
+	color: #fc561d;
+
+position: relative;
+left: 71.75vw;
+    top: 2.5vh;
+
+}
+
+
+.nav-text {
+
+color: #ff1d7c;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size: 1.5vw;
+line-height: 5vh;
+position: relative;
+top: 29vh;
+margin-left: 1.5vw;
+}
+
+.ex {
+	cursor: pointer;
+
+
+}
+
+.ob {
+	cursor: pointer;
+
+}
+
+.gt {
+ cursor: pointer;
+ 
+}
+/*end of design*/
+
+/*interactive*/
+
+.menu-symbol2 {
+position: absolute;
+display: inline;
+top: 51vh;
+left: 1.75vw;
+width: 14vw;
+height: 10vh;
+}
+
+
+/*.about {
 	color: #6e45a6;
 
 position: relative;
@@ -81,101 +112,217 @@ position: relative;
 left: 71.75vw;
     top: 2.5vh;
 
+}*/
 
-}
+/*#post {
+	position: absolute;
+}*/
 
+.text3 {
 
-#imagecanvas {
-
-position: absolute;
-
-right: 0vw;
-
-top: 27vh;
-
-width: 50%;
-
-height: 100%;
-
-
-}
-
-
-.gtimg {
-position: relative;
-
-width: 30vw;
-
-display: block;
-
-margin-left: auto;
-
-margin-right: auto;
-
-display: none;
-
-}
-
-.eximg {
-position: absolute;
-
-width: 30vw;
-
-display: block;
-
-margin-left: auto;
-
-margin-right: auto;
-
-display: none;
-
-
-}
-
-.obimg {
-position: relative;
-
-width: 30vw;
-
-display: block;
-
-margin-left: auto;
-
-margin-right: auto;
-
-display: none;
-}
-
-.text {
-color: #ff1d7c;
-
+color: #ff4242;
 font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size: 1.5vw;
+margin-left: 1.5vw;
+}
 
-font-weight: 300;
 
+.taco {
+ position: absolute;
+ top: 62vh;
+
+}
+
+.poem {
+	position: absolute;
+	top: 67vh;
+}
+
+.integ-poem {
+	position: absolute;
+	top: 72vh;
+}
+
+.rand-gen {
+	position: absolute;
+	top: 77vh;
+}
+
+.soc-dec {
+	position: absolute;
+	top: 82vh;
+}
+
+/*end of interactive*/
+
+
+.menu-symbol3 {
+position: absolute;
+display: inline;
+top: 95vh;
+left: 1.75vw;
+width: 14vw;
+height: 10vh;
+}
+
+.text4 {
+
+color: #e2af33;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
 font-size: 1.5vw;
 
-line-height: 5vh;
-
-position: relative;
-
-top: 27vh;
 
 margin-left: 1.5vw;
 }
 
-.ex {
-cursor: pointer;
+.preview{
+	position: absolute;
+	top: 106vh;
+}
 
+.flickr {
+	position: absolute;
+	top: 111vh;
+}
+/*end of photo*/
+
+/*A+C*/
+.menu-symbol4 {
+position: absolute;
+display: inline;
+top: 128vh;
+left: 1.75vw;
+width: 14vw;
+height: 10vh;
+}
+
+.text5 {
+
+color: #7b4fc1;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size: 1.5vw;
+
+
+margin-left: 1.5vw;
+padding-bottom: 9vh;
+
+}
+ .contact {
+ 	position: absolute;
+ 	top: 139vh;
+
+ }
+/*end of A+C*/
+
+/*carousel*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:50%;
+  /*max-width: 1000px;*/
+  position: relative;
+  margin: auto;
+  left: 11vw;
 
 }
 
-.ob {
-	cursor: pointer;
-
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
-.gt {
- cursor: pointer;
- 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*end of carousel*/
+
+/* Slideshow container2 */
+.slideshow-container2 {
+  max-width:25%;
+  /*max-width: 1000px;*/
+  position: relative;
+  margin: auto;
+
 }

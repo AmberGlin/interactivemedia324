@@ -1,181 +1,101 @@
 body {
 	height: 100%;
-	min-width: 100%;
+	max-width: 100%;
 	background-color: #222121;
-	
-
 }
 
-.nav-orange {
-	position: relative;
-right: -84vw;
-top: 2vh;
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:25%;
+  /*max-width: 1000px;*/
+  position: relative;
+  margin: auto;
 }
 
-.nav-purpl {
-	position: relative;
-	right: -94vw;
-top: 2vh;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
-.menu-symbol {
-	position: absolute;
-
-display: inline;
-
-top: 21vh;
-
-left: 2vw;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-.nav {
-	width: 4vw;
-	height: 3vh;
-	position: relative;
-left: 83vw;
-top: 2vh;
-margin: 5px;
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-.navtext {
-display: inline;
-
-color: orange;
-
-font-family: 'Poppins', sans-serif;
-
-font-weight: 200;
-
-font-size: .7vw;
-
-left: 71vw;
-
-position: relative;
-
-top: 2vh;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-.about {
-	color: #6e45a6;
-
-position: relative;
-
-left: 69vw;
-
-top: 2.5vh;
-}
-
-
-.photo {
-	color: #ffb600;
-position: relative;
-left: 71.5vw;
-    top: 2.5vh;
-
-}
-
-.int {
-	color: #fc561d;
-
-position: relative;
-left: 71.75vw;
-    top: 2.5vh;
-
-
-}
-
-
-#imagecanvas {
-
-position: absolute;
-
-right: 0vw;
-
-top: 27vh;
-
-width: 50%;
-
-height: 100%;
-
-
-}
-
-
-.gtimg {
-position: relative;
-
-width: 30vw;
-
-display: block;
-
-margin-left: auto;
-
-margin-right: auto;
-
-display: none;
-
-}
-
-.eximg {
-position: absolute;
-
-width: 30vw;
-
-display: block;
-
-margin-left: auto;
-
-margin-right: auto;
-
-display: none;
-
-
-}
-
-.obimg {
-position: relative;
-
-width: 30vw;
-
-display: block;
-
-margin-left: auto;
-
-margin-right: auto;
-
-display: none;
-}
-
+/* Caption text */
 .text {
-color: #ff1d7c;
-
-font-family: 'Poppins', sans-serif;
-
-font-weight: 300;
-
-font-size: 1.5vw;
-
-line-height: 5vh;
-
-position: relative;
-
-top: 27vh;
-
-margin-left: 1.5vw;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-.ex {
-cursor: pointer;
-
-
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.ob {
-	cursor: pointer;
-
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.gt {
- cursor: pointer;
- 
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
