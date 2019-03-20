@@ -151,7 +151,11 @@ $(document).ready(
         });
 
         $(".taco, .poem, .integ-poem, .rand-gen").click(function () {
-            $("#slideshow9s").hide();
+            $("#slideshow9").hide();
+        });
+
+        $(".preview").click(function () {
+            $("#slideshow4").toggle();
         });
 
 
