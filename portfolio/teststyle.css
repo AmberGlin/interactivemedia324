@@ -1,23 +1,233 @@
 body {
-	height: 100%;
-	max-width: 100%;
-	background-color: #222121;
+  height: 100%;
+  max-width: 100%;
+  background-color: #3d3b3b;
 }
 
+
+/*design*/
+.menu-symbol {
+  
+  position: absolute;
+display: inline;
+top: 35vh;
+left: 1.75vw;
+width: 14vw;
+height: 10vh;
+}
+
+
+.about {
+  
+  color: #6e45a6;
+position: relative;
+left: 69vw;
+top: 2.5vh;
+}
+
+
+.photo {
+  
+  color: #ffb600;
+position: relative;
+left: 71.5vw;
+    top: 2.5vh;
+
+}
+
+.int {
+  color: #fc561d;
+
+position: relative;
+left: 71.75vw;
+    top: 2.5vh;
+
+}
+
+
+.nav-text {
+
+color: #ff1d7c;
+
+font-family: 'Poppins', sans-serif;
+
+font-weight: 200;
+
+font-size: 1.5vw;
+
+line-height: 5vh;
+
+position: relative;
+
+top: 45vh;
+
+margin-left: 1.5vw;
+}
+
+.ex {
+  cursor: pointer;
+
+
+}
+
+.ob {
+  cursor: pointer;
+
+}
+
+.gt {
+ cursor: pointer;
+ 
+}
+/*end of design*/
+
+/*interactive*/
+
+.menu-symbol2 {
+position: absolute;
+display: inline;
+top: 114vh;
+left: 1.75vw;
+width: 14vw;
+height: 10vh;
+}
+
+
+.text3 {
+
+color: #ff4242;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size: 1.5vw;
+margin-left: 1.5vw;
+}
+
+
+.taco {
+ position: absolute;
+ top: 125vh;
+
+}
+
+.poem {
+  position: absolute;
+  top: 130vh;
+}
+
+.integ-poem {
+  position: absolute;
+  top: 135vh;
+}
+
+.rand-gen {
+  position: absolute;
+  top: 140vh;
+}
+
+.soc-dec {
+  position: absolute;
+  top: 145vh;
+}
+
+/*end of interactive*/
+
+
+.menu-symbol3 {
+position: absolute;
+display: inline;
+top: 207vh;
+left: 1.75vw;
+width: 14vw;
+height: 10vh;
+}
+
+.text4 {
+
+color: #e2af33;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size: 1.5vw;
+margin-left: 1.5vw;
+}
+
+.preview{
+  position: absolute;
+  top: 193vh;
+}
+
+.flickr {
+  position: absolute;
+  top: 207vh;
+}
+/*end of photo*/
+
+/*A+C*/
+.menu-symbol4 {
+position: absolute;
+    display: inline;
+    top: 220vh;
+    left: 1.75vw;
+    width: 14vw;
+    height: 10vh;
+
+
+}
+
+.text5 {
+
+color: #7b4fc1;
+
+font-family: 'Poppins', sans-serif;
+
+font-weight: 200;
+
+font-size: 1.5vw;
+
+margin-left: 1.5vw;
+
+padding-bottom: 9vh;
+
+}
+ .contact {
+  position: absolute;
+  top: 190vh;
+
+ }
+/*end of A+C*/
+
+
+
+
 * {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width:25%;
-  /*max-width: 1000px;*/
+  max-width: 25%;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+#slideshow1 {
+top: 5vh;
+left: 2vw;
 }
+
+#slideshow2 {
+top: 7vh;
+left: 2vw;
+}
+
+#slideshow3 {
+top: 10vh;
+left: 2vw;
+}
+
+/*#slideshow3 {
+top: 9vh;
+left: 2vw;
+}*/
 
 /* Next & previous buttons */
 .prev, .next {
@@ -25,14 +235,13 @@ body {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -68,9 +277,9 @@ body {
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -85,17 +294,22 @@ body {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }

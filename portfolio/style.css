@@ -10,16 +10,19 @@ body {
 
 }
 
+
+
 .images {
-   
+
     height: auto;
-    width: 50%;
+    width: 60%;
     margin: auto;
     position: absolute;
-    top: 0; 
+    top: -33%; 
     left: 0; 
     bottom: 0; 
     right: 0;
+    cursor: pointer;
 }
 
 .TP {
@@ -27,18 +30,83 @@ body {
 
 }
 
-.TO {
-
+#design {
+    position: absolute;
+    
+    color: #cf1e68;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    top: 58vh;
+    left: 19.805vw;
+    display: none;
 
 }
+
+/*.d-text {
+    position: absolute;
+
+top: 55vh;
+
+left: 20vw;
+
+width: 6vw;
+
+}*/
+
+.interactive {
+    position: absolute;
+    
+    color: #de3e14;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    top: 58vh;
+    left: 34vw;
+    display: none;
+
+}
+
+/*.inttext {
+        position: absolute;
+
+top: 55vh;
+
+left: 30vw;
+
+width: 6vw;
+}*/
 
 .TY {
 	
 
+}
+.photo {
+position: absolute;
+     display: inline;
+    color: #e79924;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    top: 58vh;
+    left: 50.75vw;
 }
 
 .TPP {
 	
 
 }
+.contact {
+    position: absolute;
+    display: inline;
+    color: #905de4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    top: 58vh;
+    left: 68vw;
+}
+
+
+
 

@@ -1,0 +1,18 @@
+body {
+	height: 100%;
+	max-width: 100%;
+	background-color: #222121;
+	
+
+}
+
+
+
+path { 
+        transition: .6s fill;
+        fill: #D3D3D3;
+    }
+    path:hover {
+        fill: #22aa22;
+}
+

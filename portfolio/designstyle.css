@@ -4,13 +4,17 @@ body {
 	background-color: #3d3b3b;
 }
 
-
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
 /*design*/
 .menu-symbol {
 	
 	position: absolute;
 display: inline;
-top: 19vh;
+top: 35vh;
 left: 1.75vw;
 width: 14vw;
 height: 10vh;
@@ -48,12 +52,19 @@ left: 71.75vw;
 .nav-text {
 
 color: #ff1d7c;
+
 font-family: 'Poppins', sans-serif;
+
 font-weight: 200;
+
 font-size: 1.5vw;
+
 line-height: 5vh;
+
 position: relative;
-top: 29vh;
+
+top: 45vh;
+
 margin-left: 1.5vw;
 }
 
@@ -79,44 +90,12 @@ margin-left: 1.5vw;
 .menu-symbol2 {
 position: absolute;
 display: inline;
-top: 51vh;
+top: 124vh;
 left: 1.75vw;
 width: 14vw;
 height: 10vh;
 }
 
-
-/*.about {
-	color: #6e45a6;
-
-position: relative;
-
-left: 69vw;
-
-top: 2.5vh;
-}
-
-
-.photo {
-	color: #ffb600;
-position: relative;
-left: 71.5vw;
-    top: 2.5vh;
-
-}
-
-.int {
-	color: #fc561d;
-
-position: relative;
-left: 71.75vw;
-    top: 2.5vh;
-
-}*/
-
-/*#post {
-	position: absolute;
-}*/
 
 .text3 {
 
@@ -130,28 +109,33 @@ margin-left: 1.5vw;
 
 .taco {
  position: absolute;
- top: 62vh;
+ top: 135vh;
+ cursor: pointer;
 
 }
 
 .poem {
 	position: absolute;
-	top: 67vh;
+	top: 140vh;
+  cursor: pointer;
 }
 
 .integ-poem {
 	position: absolute;
-	top: 72vh;
+	top: 145vh;
+  cursor: pointer;
 }
 
 .rand-gen {
 	position: absolute;
-	top: 77vh;
+	top: 150vh;
+  cursor: pointer;
 }
 
 .soc-dec {
 	position: absolute;
-	top: 82vh;
+	top: 155vh;
+  cursor: pointer;
 }
 
 /*end of interactive*/
@@ -160,7 +144,7 @@ margin-left: 1.5vw;
 .menu-symbol3 {
 position: absolute;
 display: inline;
-top: 95vh;
+top: 237vh;
 left: 1.75vw;
 width: 14vw;
 height: 10vh;
@@ -172,69 +156,108 @@ color: #e2af33;
 font-family: 'Poppins', sans-serif;
 font-weight: 200;
 font-size: 1.5vw;
-
-
 margin-left: 1.5vw;
 }
 
 .preview{
 	position: absolute;
-	top: 106vh;
+	top: 248vh;
+  cursor: pointer;
 }
 
 .flickr {
 	position: absolute;
-	top: 111vh;
+	top: 253vh;
+  cursor: pointer;
 }
 /*end of photo*/
 
 /*A+C*/
 .menu-symbol4 {
 position: absolute;
-display: inline;
-top: 128vh;
-left: 1.75vw;
-width: 14vw;
-height: 10vh;
+    display: inline;
+    top:292vh;
+    left: 1.75vw;
+    width: 14vw;
+    height: 10vh;
+
+
 }
 
 .text5 {
 
 color: #7b4fc1;
+
 font-family: 'Poppins', sans-serif;
+
 font-weight: 200;
+
 font-size: 1.5vw;
 
-
 margin-left: 1.5vw;
+
 padding-bottom: 9vh;
 
 }
  .contact {
  	position: absolute;
- 	top: 139vh;
+ 	top: 303vh;
+  cursor: pointer;
 
  }
 /*end of A+C*/
 
-/*carousel*/
+/*slideshow*/
 
-* {box-sizing:border-box}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+* {box-sizing: border-box}
+.mySlides2, .mySlides3 {display: none}
+/*img {vertical-align: middle;}*/
 
 /* Slideshow container */
-.slideshow-container {
-  max-width:50%;
-  /*max-width: 1000px;*/
+.slideshow-container2 {
+  max-width: 45%;
   position: relative;
   margin: auto;
-  left: 11vw;
+  left: 9vw;
+display: none;
+}
+
+.slideshow-container3 {
+  max-width: 25%;
+
+position: relative;
+
+margin: auto;
+
+left: 10vw;
+
+top: -1vh;
+display: none;
+}
+
+.slideshow-container4 {
+  max-width: 25%;
+
+position: relative;
+
+margin: auto;
+
+left: 10vw;
+
+top: 104vh;
 
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+
+
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -242,14 +265,147 @@ padding-bottom: 9vh;
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/*end of slideshow*/
+
+/*new slideshow*/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+#slideshow1 {
+
+position: absolute;
+margin: auto;
+left: 34vw;
+top: 17vh;
+display: none;
+
+}
+
+#slideshow2 {
+
+
+position: absolute;
+margin: auto;
+left: 34vw;
+top: 17vh;
+display: none;
+
+
+
+}
+
+#slideshow3 {
+position: absolute;
+margin: auto;
+left: 34vw;
+top: 116vh;
+display: none;
+}
+
+#slideshow4 {
+position: absolute;
+margin: auto;
+left: 34vw;
+top: 221vh;
+display: none;
+}
+
+#slideshow5 {
+position: absolute;
+margin: auto;
+left: 34vw;
+top: 17vh;
+display: none;
+
+
+}
+
+#slideshow6 {
+position: absolute;
+margin: auto;
+left: 41vw;
+top: 116vh;
+display: none;
+
+}
+
+#slideshow7 {
+position: absolute;
+margin: auto;
+left: 34vw;
+top: 116vh;
+display: none;
+
+}
+
+#slideshow8 {
+position: absolute;
+margin: auto;
+
+left: 34vw;
+top: 116vh;
+display: none;
+
+
+}
+
+#slideshow9 {
+position: absolute;
+margin: auto;
+left: 34vw;
+top: 116vh;
+display: none;
+
+}
+
+/*#slideshow3 {
+top: 9vh;
+left: 2vw;
+}*/
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
 }
 
 /* Position the "next button" to the right */
@@ -285,9 +441,9 @@ padding-bottom: 9vh;
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -302,27 +458,22 @@ padding-bottom: 9vh;
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
 }
-/*end of carousel*/
 
-/* Slideshow container2 */
-.slideshow-container2 {
-  max-width:25%;
-  /*max-width: 1000px;*/
-  position: relative;
-  margin: auto;
-
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
